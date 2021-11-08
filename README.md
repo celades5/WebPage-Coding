@@ -7,4 +7,6 @@ First commit is a basic cose in HTML language called **web.html**:
 
     - **web.html:** First web-code with HTML language. Basic concepts like unordered/ordered lists and images from different folders.
 
-    - - **web2.html:** Second file in web-code with HTML language. 
+    - - **web2.html:** Second file in web-code with HTML language. Basic structure of a very very webpage, using links and references.
+
+    **web3.html:** Third file in web-code with HTML language.
