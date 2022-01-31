@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Write messages to the devtool console</title>
+  <meta charset="utf-8"/>
+  <script>
+    var x = 10;
+    
+    function addXToThePage() {
+      // THIS WILL DISPLAY A MESSAGE IN THE DEVTOOL CONSOLE
+      console.log("In The addXToThePage function");
+      
+      // This code is strangely never executed...
+      document.body.innerHTML += "<p>The value of x = " + x + "</p>";
+      // THE ERROR WAS HERE! We replaced the "X" by "x"
+      x = x + 1;
+    }
+  </script>
+</head>
+  <body>
+    <button onclick="addXToThePage();">Click me to display the value of the x variable</button>
+  </body>
+<!--Second little code-->
+
+<body>
+  <h2>Contact list</h2>
+  <button onclick="buildTable();">Click to build the table!</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Given name</th>
+        <th>Family name</th>
+      </tr>
+    </thead>
+    <tbody id="tableContactBody">
+    </tbody>
+  </table>
+</body>
+<!-- painting screen-->
+<body>
+  <p> 
+    This example shows how to paint in a canvas, with a "pencil"... 
+    The path that is drawn is made of several contiguous lines.
+  </p>
+  <canvas id="myCanvas" width="400" height="400">
+  </canvas>
+</body>
+
+
+</html>
