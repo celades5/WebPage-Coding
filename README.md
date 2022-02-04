@@ -19,3 +19,5 @@ First commit is a basic cose in HTML language called **web.html**:
 
 - **Validation:** Little code where it has a box to write like a typucal box to put a username.
 
+- **Tree:** Litlle code that performs an animation of a tree-binary decision.
+
