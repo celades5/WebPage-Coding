@@ -21,3 +21,5 @@ First commit is a basic cose in HTML language called **web.html**:
 
 - **Tree:** Litlle code that performs an animation of a tree-binary decision.
 
+- **Adding List:** Code that creates a list of numbers inserted by user input.
+
