@@ -1,0 +1,105 @@
+.Youtube {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 8px;
+    transition: opacity 0.15s
+                padding-top 1s,
+                padding-bottom 1s,
+                padding-left 1s,
+                padding-right 1s;
+}
+
+.Youtube:hover {
+    opacity: 0.7;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+
+}
+
+.Youtube:active { /*when we click on the button*/
+    opacity: 0.2;
+    
+    }
+
+
+.Join {
+    background-color: white;
+    color: blue;
+    border-style: solid;
+    border-color: rgb(100, 100, 239);
+    border-width: 1px;
+    cursor: pointer;
+    /* width: 105px;
+    height: 30px; */
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 8px;
+    transition: background-color 1s, color 1s;
+}
+
+.Join:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+
+.Join:active{
+    opacity: 0.7;
+
+}
+
+
+
+.Tweet {
+    background-color: blue;
+    color: white;
+    border-color: rgb(100, 100, 239);
+    border:none;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+    
+}
+
+
+.Tweet:hover{
+    box-shadow: 5px 5px 10px grey; /*horizontal vertical blurr color*/
+
+}
+
+
+
+.Title{
+    font-size: 18px;
+    font-family: Roboto;
+    width: 600px;
+    margin-bottom: 0px;
+}
+
+
+.Author{
+
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+
+
+
